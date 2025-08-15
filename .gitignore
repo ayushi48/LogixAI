@@ -84,9 +84,7 @@ dist
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and not Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+# public  # Uncomment if Gatsby project
 
 # vuepress build output
 .vuepress/dist
@@ -137,3 +135,23 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- EXTRA for your project ---
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Backend build output
+backend/dist/
+backend/build/
+
+# Vite cache
+node_modules/.vite
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
